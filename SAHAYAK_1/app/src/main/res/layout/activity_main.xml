@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="229dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/loginscrn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+
+        android:text="@string/login"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:textStyle="italic|bold"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:id="@+id/fstTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/email"
+        android:layout_marginStart="100dp" />
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10"
+        android:layout_marginStart="100dp"
+        android:autofillHints="" />
+    <TextView
+        android:id="@+id/secTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp" />
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginStart="100dp"
+        android:autofillHints="" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="@string/login"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFEB3B"
+        android:layout_marginStart="100dp" />
+    <TextView android:id="@+id/lnkRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/new_to_tutlane_register_here"
+        android:paddingBottom="20dp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textColor="#0B0708"/>
+
+
+</LinearLayout>

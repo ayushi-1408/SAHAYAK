@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/logo"
+        android:textColor="#FFEB3B"
+
+        android:textStyle="bold|italic"
+        android:fontFamily="cursive"
+        android:padding="30dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/how_it_works"
+        android:id="@+id/textH"
+        android:textColor="#FFFFFF"
+
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40sp"
+        android:paddingLeft="30sp"
+        android:paddingStart="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_1_click_on_start_button_for_starting_the_quiz"
+        android:layout_below="@+id/textH"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:id="@+id/texts1"
+        android:textColor="#FFEB3B"
+        android:paddingStart="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_2_answer_the_questions_honestly_for_good_result"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:id="@+id/texts2"
+        android:layout_below="@+id/texts1"
+        android:textColor="#FFEB3B"
+        android:paddingStart="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_3_see_the_result_and_checkout_the_instructions_provided"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:id="@+id/texts3"
+        android:layout_below="@+id/texts2"
+        android:textColor="#FFEB3B"
+        android:paddingStart="30dp" />
+
+
+
+</RelativeLayout>

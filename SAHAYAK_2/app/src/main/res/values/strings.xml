@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SAHAYAK</string>
+    <string name="start">START</string>
+    <string name="about">ABOUT</string>
+    <string name="be_your_own_sahayak">Be your own SAHAYAK</string>
+    <string name="how_it_works">How it Works?</string>
+    <string name="step_1_click_on_start_button_for_starting_the_quiz">STEP 1: CLick on START button for starting the quiz</string>
+    <string name="step_3_see_the_result_and_checkout_the_instructions_provided">STEP 3: See the result and check out the instructions provided</string>
+    <string name="step_2_answer_the_questions_honestly_for_good_result">STEP 2: Answer the questions honestly for good result</string>
+    <string name="about_team">ABOUT TEAM</string>
+</resources>

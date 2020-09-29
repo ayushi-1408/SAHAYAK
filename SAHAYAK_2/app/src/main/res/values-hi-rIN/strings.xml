@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SAHAYAK</string>
+    <string name="start">"शुरू करे "</string>
+    <string name="about">विषय में</string>
+    <string name="be_your_own_sahayak">खुद का साहयक बनो</string>
+    <string name="how_it_works">" यह काम किस प्रकार करता है ?"</string>
+    <string name="step_1_click_on_start_button_for_starting_the_quiz">"चरण 1 : स्टार्ट बटन पर क्लिक करें  प्रश्नोत्तरी शुरू करने के लिए "</string>
+    <string name="step_3_see_the_result_and_checkout_the_instructions_provided">" चरण 3: परिणाम देखें और दिए गए निर्देशों को देखें"</string>
+    <string name="step_2_answer_the_questions_honestly_for_good_result">" चरण 2: अच्छे परिणाम के लिए ईमानदारी से प्रश्नों का उत्तर दें"</string>
+</resources>
