@@ -1,10 +1,4 @@
-# SAHAYAK
 
-Be your own SAHAYAK
-
-* DEPRESSION26 is the python file which contains ML model that we have created to predict mental health condition.
-
-* Sahayak_1, SAHAYAK_2, SAHAYAK_3 are code for setting up the mobile application.
 # SAHAYAK
 <img src="https://github.com/vanshu25/Sahayak/blob/master/images/gallery.jpg" width="400" height="400" />
 
@@ -46,3 +40,7 @@ Here are some screenshots of the app:
 * DEPRESSION26 is the Jupyter Notebook file which contains ML model that I have created to predict mental health condition.
 
 * b_depressed.csv is the dataset that I have used for the model. 
+##For Reference
+* DEPRESSION26 is the python file which contains ML model that we have created to predict mental health condition.
+
+* Sahayak_1, SAHAYAK_2, SAHAYAK_3 are code for setting up the mobile application.
